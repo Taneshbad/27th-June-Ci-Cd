@@ -4,5 +4,5 @@ provider "aws" {
 
 # Create an S3 bucket
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-simple-bucket-12345"   # must be globally unique — change this!
+  bucket = "my-bucket-pwskills"   # must be globally unique — change this!
 }
